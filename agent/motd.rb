@@ -1,7 +1,10 @@
 ##
 ## THIS FILE IS UNDER PUPPET CONTROL. DON'T EDIT IT HERE.
 ##
-## $Id: motd.rb 9317 2014-01-07 10:33:22Z itannord $
+
+# anders@fupp.net, 2014-01-07
+# Walks through local motd to find odd lines that should be preserved before
+# pushing out standardized motd
 
 module MCollective
     module Agent

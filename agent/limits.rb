@@ -1,7 +1,10 @@
 ##
 ## THIS FILE IS UNDER PUPPET CONTROL. DON'T EDIT IT HERE.
 ##
-## $Id: limits.rb 9565 2014-01-16 10:48:02Z itannord $
+
+# anders@fupp.net, 2014-01-16
+# Walks through local /etc/securit/limits.conf to find odd settings that
+# needs to be preserved before pusing standardized config
 
 module MCollective
     module Agent

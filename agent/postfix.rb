@@ -1,12 +1,10 @@
 ##
 ## THIS FILE IS UNDER PUPPET CONTROL. DON'T EDIT IT HERE.
 ##
-## $Id: postfix.rb 9687 2014-01-22 13:40:32Z itannord $
 
-# TODO:
-# detect if Postfix is installed by Puppet?
-# check if main.cf is a resource
-# server ignore list mx/postmann etc
+# anders@fupp.net, 2014-01-22
+# Walks through local Postfix config to find odd settings that needs to be
+# preserved before pushing standardized Postfix config.
 
 module MCollective
     module Agent
